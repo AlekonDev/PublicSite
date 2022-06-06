@@ -1,0 +1,133 @@
+html{
+    --active-blue: #4885EB;
+    --basic-white: #ffffff;
+    --main-black: #575757;
+}
+
+body{
+    /* Общие настройки */
+    font-size: 18px;
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    background-color: #F8F8F8;;
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner-label{
+    /* Первый контейнер в шапке */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conteiner-label2{
+    /* Второй контейнер в шапке */
+    padding-top: 40px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.header{
+    /* Настройки  */
+    background-color: #fff;
+}
+
+.box{
+    /* Все настройки бокса в хеддере */
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 1044px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.blue{
+    color: var(--active-blue);
+}
+
+.button{
+    /* Настройки кнопки */
+    color: var(--active-blue);
+    border: 1px var(--active-blue) solid ;
+    padding: 10px;
+    font-family: 'JetBrains Mono',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button:hover{
+    color: var(--basic-white);
+    background: var(--active-blue);
+}
+
+.num{
+    /* Настройки блока текста в 1 контейнере */
+    font-size: 16px;
+    color: var(--main-black);
+}
+
+.text{
+    padding-left: 15px;
+    padding-right: 40px;
+}
+
+
+header a, li{
+    color: #575757;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.ui-head{
+    display: flex;
+    padding-inline-start: 0px;
+    margin: 0;
+}
+
+.ui-head-li{
+    margin-right: 50.83px;
+}
+
+.ui-head-li:last-child{
+    margin-right: 0px;
+}
+
+.rect{
+    /* Настройки стрелочки на кнопке "Наши продукты" */
+    margin-left: 10px;
+}
+
+.banner{
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 1060px;
+    height: 529px;
+    display: flex;
+
+}
+
+.header-text{
+    margin: 0px;
+    font-size: 50px;
+    font-family: 'JetBrains Mono',sans-serif;
+    color: #575757;
+}
+
+.container-banner2{
+    padding-top: 12px;
+    width: 430px;
+    height: 517px;
+    margin-left: auto;
+}
+
+.aa{
+    margin-top: 30px;
+}
+
+.aa :first-child{
+    margin-right: 0ps;
+}
+
+.but{
+    margin-top: 45px;
+}
