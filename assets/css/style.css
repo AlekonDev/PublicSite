@@ -2,6 +2,7 @@ html{
     --active-blue: #4885EB;
     --basic-white: #ffffff;
     --main-black: #575757;
+    --back-blue: #789EDE;
 }
 
 body{
@@ -49,16 +50,32 @@ body{
 .button{
     /* Настройки кнопки */
     color: var(--active-blue);
+    background: #fff;
     border: 1px var(--active-blue) solid ;
     padding: 10px;
     font-family: 'JetBrains Mono',sans-serif;
     font-size: 16px;
     font-weight: bold;
+    border-radius: 4px;
 }
+
+.button2{
+    /* Настройки кнопки */
+    color: #fff;
+    background: var(--active-blue);
+    border: 1px var(--active-blue) solid ;
+    padding: 10px;
+    font-family: 'JetBrains Mono',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
 .button:hover{
     color: var(--basic-white);
     background: var(--active-blue);
 }
+
 
 .num{
     /* Настройки блока текста в 1 контейнере */
@@ -131,3 +148,189 @@ header a, li{
 .but{
     margin-top: 45px;
 }
+
+.active{
+    color: #789EDE;
+}
+
+a:not(.active):hover{
+    color: #1C71FF ;
+}
+
+
+.banner-work{
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 1060px;
+   
+}
+
+.header-work{
+    margin: 0;
+    font-family: "JetBrains Mono", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    color: #575757;
+}
+
+.Box-work{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.podBox-work{
+    width: 250px;
+    height: 366px;
+    border-style: solid;
+    border-color: #B7B7B7;
+    border-radius: 6px;
+}
+
+.work-pic{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.blok-text{
+    width: 219px;
+    height: 193px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contents-text{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #575757;
+}
+
+.text-work{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #575757;
+}
+
+.button-work{
+    color: var(--active-blue);
+    background: #fff;
+    border: 1px var(--active-blue) solid ;
+    padding: 10px;
+    font-family: 'JetBrains Mono',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.news{
+    margin-top: 100px;
+    background-color: var(--back-blue);
+    height: 683px;
+}
+
+.banner-news{
+   width: 1060px;
+   margin: 0 auto;
+   padding-top: 50px;
+}
+
+.text-news{
+    color: #fff;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    margin: 0px;
+}
+
+.basics{
+    display: flex;
+    margin-top: 50px;
+    width: 610px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 9px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.basics-text{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #3D3D3D;
+    margin-bottom: 0px;
+}
+
+.image-news{
+    position: relative;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+}
+.text-image1 {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    color: #fff;
+}
+
+.image-tab{
+    
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.image-tab:last-child{
+    margin-bottom: 0px;
+}
+
+.button-news{
+    color: var(--active-blue);
+    background: #fff;
+    border: 1px var(--active-blue) solid ;
+    text-align: center;
+    padding: 10px;
+    font-family: 'JetBrains Mono',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 24px;
+    margin-left: 40px;
+    line-break: 40px;
+    margin-right: 351px
+  
+}
+
+
+
+
+
