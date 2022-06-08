@@ -158,7 +158,10 @@ a:not(.active):hover{
 }
 
 
+/* ниже работа с разделом работа */
+
 .banner-work{
+    /* Настройка площади  */
     margin: 0 auto;
     padding-top: 100px;
     width: 1060px;
@@ -166,6 +169,7 @@ a:not(.active):hover{
 }
 
 .header-work{
+    /* заголовок в баннере */
     margin: 0;
     font-family: "JetBrains Mono", sans-serif;
     font-style: normal;
@@ -184,6 +188,7 @@ a:not(.active):hover{
 }
 
 .podBox-work{
+    /* боксы с темой */
     width: 250px;
     height: 366px;
     border-style: solid;
@@ -192,11 +197,13 @@ a:not(.active):hover{
 }
 
 .work-pic{
+    /* настрокий картинки */
     padding-left: 15px;
     padding-top: 15px;
 }
 
 .blok-text{
+    /* настройки блока текста */
     width: 219px;
     height: 193px;
     margin-left: 15px;
@@ -205,6 +212,7 @@ a:not(.active):hover{
 }
 
 .contents-text{
+    /* настройки заголовка */
    margin-top: 20px;
    margin-bottom: 20px;
    font-family: 'JetBrains Mono';
@@ -217,6 +225,7 @@ a:not(.active):hover{
 }
 
 .text-work{
+    /* настройки сожержания */
     margin: 0px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -227,6 +236,7 @@ a:not(.active):hover{
 }
 
 .button-work{
+    /* настройки кнопки */
     color: var(--active-blue);
     background: #fff;
     border: 1px var(--active-blue) solid ;
@@ -239,19 +249,25 @@ a:not(.active):hover{
     margin-bottom: 25px;
 }
 
+
+/* Ниже работа с разделом новости */
+
 .news{
+    /* настройки площади */
     margin-top: 100px;
     background-color: var(--back-blue);
     height: 683px;
 }
 
 .banner-news{
-   width: 1060px;
+    /* настройки контейнека */
+   width: 1060px; 
    margin: 0 auto;
    padding-top: 50px;
 }
 
 .text-news{
+    /* настройки оглавления */
     color: #fff;
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -263,6 +279,7 @@ a:not(.active):hover{
 }
 
 .basics{
+    /* настройки блока */
     display: flex;
     margin-top: 50px;
     width: 610px;
@@ -274,6 +291,7 @@ a:not(.active):hover{
 }
 
 .basics-text{
+    /* настройки текста в блоке */
     margin-top: 20px;
     margin-left: 40px;
     font-family: 'Inter';
@@ -286,6 +304,7 @@ a:not(.active):hover{
 }
 
 .image-news{
+    /* настройки главной картинки */
     position: relative;
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -295,6 +314,7 @@ a:not(.active):hover{
     letter-spacing: 0.04em;
 }
 .text-image1 {
+    /* настройки текста на катринке */
     position: absolute;
     bottom: 10px;
     left: 40px;
@@ -302,7 +322,7 @@ a:not(.active):hover{
 }
 
 .image-tab{
-    
+    /* настройка второстепенных картинок */
     border-radius: 8px;
     margin-top: 0px;
     margin-left: 20px;
@@ -314,6 +334,7 @@ a:not(.active):hover{
 }
 
 .button-news{
+    /* настройки кнопки */
     color: var(--active-blue);
     background: #fff;
     border: 1px var(--active-blue) solid ;
@@ -332,5 +353,95 @@ a:not(.active):hover{
 
 
 
+
+
+
+.map{
+    height: 854px;
+}
+
+
+
+footer{
+    height: 231px;
+    background-color: var(--back-blue);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center
+}
+
+.conteiner-footer{
+    width: 1060px;
+    height: 131px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-footer-log{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.text-footer-a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-a{
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+.qq{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+
+.button-footer{
+    color: #fff;
+    background: var(--back-blue);
+    border: 1px #fff solid ;
+    text-align: center;
+    padding: 10px;
+    font-family: 'JetBrains Mono',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-top: 10px;
+    line-break: 40px;
+    line-height: 21px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.text-icon{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.image-footer{
+    padding-right: 15px ;
+}
 
 
