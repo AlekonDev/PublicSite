@@ -21,12 +21,6 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.conteiner-label2{
-    /* Второй контейнер в шапке */
-    padding-top: 40px;
-    display: flex;
-    padding-bottom: 20px;
-}
 
 .header{
     /* Настройки  */
@@ -47,33 +41,46 @@ body{
     color: var(--active-blue);
 }
 
-.button{
+.button-style{
     /* Настройки кнопки */
-    color: var(--active-blue);
-    background: #fff;
-    border: 1px var(--active-blue) solid ;
+    
     padding: 10px;
     font-family: 'JetBrains Mono',sans-serif;
     font-size: 16px;
     font-weight: bold;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none
 }
 
-.button2{
-    /* Настройки кнопки */
+.buttom-header{
+    color: var(--active-blue);
+    background-color: transparent;
+    border: 1px var(--active-blue) solid ;
+    gap: 10px;
+}
+
+.button-nav{
     color: #fff;
     background: var(--active-blue);
-    border: 1px var(--active-blue) solid ;
-    padding: 10px;
-    font-family: 'JetBrains Mono',sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 4px;
+    border: 1px var(--active-blue) solid;
+    gap: 15px;
+    width: 260px;
+    margin-top: 45px;
 }
 
-.button:hover{
-    color: var(--basic-white);
+
+.buttom-header:hover{
+    color: #fff;
     background: var(--active-blue);
+
+}
+
+.button-nav:hover{
+    color: #fff;
+    background: rgba(28, 113, 255, 1);
 }
 
 
@@ -93,26 +100,27 @@ header a, li{
     color: #575757;
     list-style-type: none;
     text-decoration: none;
+    gap: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .ui-head{
     display: flex;
     padding-inline-start: 0px;
     margin: 0;
+    justify-content: space-between
 }
 
 .ui-head-li{
-    margin-right: 50.83px;
+    padding-top: 40px;
+    padding-bottom: 22px;
 }
 
 .ui-head-li:last-child{
     margin-right: 0px;
 }
 
-.rect{
-    /* Настройки стрелочки на кнопке "Наши продукты" */
-    margin-left: 10px;
-}
 
 .banner{
     margin: 0 auto;
@@ -145,6 +153,12 @@ header a, li{
     margin-right: 0ps;
 }
 
+.text-nav{
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+
 .but{
     margin-top: 45px;
 }
@@ -153,9 +167,10 @@ header a, li{
     color: #789EDE;
 }
 
-a:not(.active):hover{
-    color: #1C71FF ;
-}
+.ui-head a:not(.active):hover{
+     color: #1C71FF ; 
+} 
+
 
 
 /* ниже работа с разделом работа */
@@ -165,7 +180,6 @@ a:not(.active):hover{
     margin: 0 auto;
     padding-top: 100px;
     width: 1060px;
-   
 }
 
 .header-work{
@@ -191,9 +205,8 @@ a:not(.active):hover{
     /* боксы с темой */
     width: 250px;
     height: 366px;
-    border-style: solid;
-    border-color: #B7B7B7;
     border-radius: 6px;
+    border: 2px solid rgba(183, 183, 183, 1);
 }
 
 .work-pic{
@@ -240,13 +253,14 @@ a:not(.active):hover{
     color: var(--active-blue);
     background: #fff;
     border: 1px var(--active-blue) solid ;
-    padding: 10px;
-    font-family: 'JetBrains Mono',sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 4px;
     margin-top: 20px;
     margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.button-work:hover{
+    color: #FFFFFF;
+    background-color:rgba(28, 113, 255, 1) ;
 }
 
 
@@ -333,25 +347,70 @@ a:not(.active):hover{
     margin-bottom: 0px;
 }
 
+
+
+
 .button-news{
     /* настройки кнопки */
     color: var(--active-blue);
     background: #fff;
     border: 1px var(--active-blue) solid ;
     text-align: center;
-    padding: 10px;
-    font-family: 'JetBrains Mono',sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 4px;
     margin-top: 24px;
     margin-left: 40px;
     line-break: 40px;
+    cursor: pointer;
     margin-right: 351px
-  
+}
+
+.button-news:hover{
+    background-color: rgba(28, 113, 255, 1);
+    color: #fff;
 }
 
 
+.my-image{
+    display: flex;
+    align-items: flex-end;
+
+    width: 395px;
+    height: 150px;
+    border-radius: 8px;
+    color: white;
+
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    justify-content: space-between;
+}
+
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.image2{
+    background-image: url(../image/2.png);
+}
+
+.image3{
+    background-image: url(../image/3.png);
+}
+
+.image4{
+    background-image: url(../image/4.png);
+}
 
 
 
@@ -407,19 +466,26 @@ footer{
     flex-wrap: wrap
 }
 
+.qq a:not(.active):hover{
+    color: #1C71FF ; 
+}
+
+
 .button-footer{
     color: #fff;
     background: var(--back-blue);
     border: 1px #fff solid ;
     text-align: center;
-    padding: 10px;
-    font-family: 'JetBrains Mono',sans-serif;
-    font-size: 16px;
     font-weight: 700;
-    border-radius: 4px;
     margin-top: 10px;
     line-break: 40px;
     line-height: 21px;
+    cursor: pointer;
+}
+
+.button-footer:hover{
+    background-color: #FFFFFF;
+    color: rgba(28, 113, 255, 1);
 }
 
 .icon{
