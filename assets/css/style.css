@@ -10,9 +10,11 @@ body{
     font-size: 18px;
     color: #000;
     font-family: 'Inter',sans-serif;
-    background-color: #F8F8F8;;
+    background-color: white;
     padding: 0;
     margin: 0;
+    line-height: 27px;
+    letter-spacing: 0.05em;
 }
 
 .conteiner-label{
@@ -25,6 +27,7 @@ body{
 .header{
     /* Настройки  */
     background-color: #fff;
+    box-shadow: 16px 17px 40px rgba(0, 0, 0, 0.05);
 }
 
 .box{
@@ -67,7 +70,7 @@ body{
     background: var(--active-blue);
     border: 1px var(--active-blue) solid;
     gap: 15px;
-    width: 260px;
+    width: 280px;
     margin-top: 45px;
 }
 
@@ -136,6 +139,8 @@ header a, li{
     font-size: 50px;
     font-family: 'JetBrains Mono',sans-serif;
     color: #575757;
+    font-weight: 800;
+    letter-spacing: 0.05em;
 }
 
 .container-banner2{
@@ -146,7 +151,7 @@ header a, li{
 }
 
 .aa{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .aa :first-child{
@@ -207,6 +212,7 @@ header a, li{
     height: 366px;
     border-radius: 6px;
     border: 2px solid rgba(183, 183, 183, 1);
+    letter-spacing: 0;
 }
 
 .work-pic{

@@ -1,0 +1,38 @@
+.box-news{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+
+    letter-spacing: 0.04em;
+
+    color: #575757;
+    height: 1053px;
+
+}
+
+.container-news{
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 1062px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.new{
+    width: 340px;
+    height: 374px;
+    
+}
+
+.con{
+    Width: 700px;
+    Height: 779px;
+    margin-top: 83px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
