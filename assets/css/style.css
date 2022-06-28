@@ -18,6 +18,9 @@ body{
     letter-spacing: 0.05em;
 }
 
+.\aside{
+
+}
 .conteiner-label{
     /* Первый контейнер в шапке */
     display: flex;
