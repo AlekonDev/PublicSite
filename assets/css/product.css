@@ -1,0 +1,147 @@
+
+.conteiner-news{
+
+}
+
+.main-blok{
+    width: 1060px;
+    height: 586px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.left-blok{
+    width: 700px;
+}
+
+.txt{
+    margin-bottom: 40px;
+}
+
+.h2-product{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    margin-bottom: 30px;
+    color: #575757;
+}
+
+.h3-product{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #575757;
+}
+
+.main-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.struct{
+    width: 529px;
+}
+
+.modul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+    color: #575757;
+    text-decoration: none;
+}
+
+.marg{
+    margin: 0 auto;
+}
+
+.punct{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.right-blok{
+    height: 356px;
+    margin-left: 60px;  
+    margin-top: 43px; 
+}
+
+.right-list{
+    margin-left: 20px ;
+}
+
+.list{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;  
+}
+
+.list a{
+    text-decoration: none;;
+}
+
+.button-product-div{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+}
+
+
+.button-product{
+    background: var(--active-blue);
+    border: 1px var(--active-blue) solid;
+    color: white;
+    width: 239px;
+}
+
+.style-butten-product{
+    padding: 12px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.button-buy{
+    background: var(--basic-white);
+    border: 2px var(--active-blue) solid;
+    color: var(--active-blue);
+    width: 239px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.button-buy:hover{
+    color: white;
+    background-color: var(--active-blue);
+}
+
+.right-list a:not(.active):hover{
+    color: #1C71FF ; 
+}
